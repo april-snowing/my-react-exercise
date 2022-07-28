@@ -10,10 +10,14 @@
 // 类名样式 className
 // 动态类名 eg： active
 import PostCreate from "./postCreate";
+import PostList from "./postList";
+import "./App.css";
 function App() {
   return (
     <div className="container">
-         <PostCreate />
+      <PostCreate />
+      <hr />
+      <PostList></PostList>
     </div>
   );
 }

@@ -1,0 +1,20 @@
+.card {
+    border: 1px solid bisque;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: azure;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.flex-container div.card {
+    width: 30%;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
